@@ -1,0 +1,26 @@
+# POST http://localhost:8000/api/auth/signup
+# Content-Type: application/json
+
+
+# {
+#     "firstName" : "Rohit",
+#     "lastName" : "sahu",
+#     "email" : "rohit@abc.com",
+#     "password" : "Rohit@123"
+# }
+
+
+
+# POST http://localhost:8000/api/auth/signin
+# Content-Type: application/json
+
+
+# {
+#     "email" : "rohit2@abc.com",
+#     "password" : "Rohit@123"
+# }
+
+# POST http://localhost:8000/api/auth/signout
+
+GET http://localhost:8000/api/project
+
